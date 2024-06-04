@@ -126,7 +126,15 @@ footer {
 
     /* Main content */
     main {
-        /* Üush main content down to accommodate larger header */
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
+    }
+}
+
+/* Media query: small laptops and larger (992px and higer) */
+@media screen and (min-width: 992px) {
+    /* Header */
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
